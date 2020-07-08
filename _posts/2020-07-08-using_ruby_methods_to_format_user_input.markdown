@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "**Using Ruby Methods to Format User Input**."
-date:       2020-07-08 19:33:17 +0000
+title:      "using ruby methods to format user input."
+date:       2020-07-08 15:33:18 -0400
 permalink:  using_ruby_methods_to_format_user_input
 ---
 
