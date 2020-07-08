@@ -30,6 +30,3 @@ Example:
 
 A combination of the downcase and strip methods makes it so that any user input can be reformated so that any input will match the desired input.
 
-
-
-
