@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Variables in Ruby"
-date:       2020-07-13 23:50:56 +0000
+date:       2020-07-13 19:50:57 -0400
 permalink:  variables_in_ruby
 ---
 
@@ -15,7 +15,7 @@ Here the string "Liverpool FC" can be associated with the variable worlds_best_t
 
 We have 4 different kinds of variables in ruby depending on the scope within which they operate; global  class, local and instance variables.
 
-**1. Global Variables** exist within the entire scope of the program (it is believed that when programmers should not use global variables when writing their code and they should only be used by the interpreter). Global variables begin with $. Uninitialized global variables have the value nil and produce warnings with the -w option. 
+1. Global Variables exist within the entire scope of the program (it is believed that when programmers should not use global variables when writing their code and they should only be used by the interpreter). Global variables begin with $. Uninitialized global variables have the value nil and produce warnings with the -w option. 
 
 Here is an example of the use of global variables 
 
@@ -34,7 +34,7 @@ The best team in the world is Liverpool FC
 
 Ruby still knows the best team in the world is  Liverpool FC even though it is written outside the scope of the class.
 
-**2. Local Variables** exist locally within the construct that they are inside and variables cannot be accessed outside that construct. For example if a local variable is declared within a method, it cannot be accessed outside that method. They begin with a lowercase letter or _.
+2. Local Variables exist locally within the construct that they are inside and variables cannot be accessed outside that construct. For example if a local variable is declared within a method, it cannot be accessed outside that method. They begin with a lowercase letter or _.
 
 Here is an example of a local variable
 
@@ -61,11 +61,11 @@ NameError (undefined local variable or method `lfc' for main:Object)
 This is because lfc is within the the_best_team method and as a local variable cannot be called out of it.
 
 
-**3. Class Variables** are variables that are shared by all instances of a class and when one instance changes the value of the variable, it is available across different objects. Class variables can be thought of as global variables within the context of a single class.
+3. Class Variables are variables that are shared by all instances of a class and when one instance changes the value of the variable, it is available across different objects. Class variables can be thought of as global variables within the context of a single class.
 They begin with the @@ sign
 
 
-**4. Instance Variables**  are similar to Class variables but their values are local to specific instances of an object so as long as you are within the scope of the instance you can read the variable but no other part of your program. This is called internal state.
+4. Instance Variables  are similar to Class variables but their values are local to specific instances of an object so as long as you are within the scope of the instance you can read the variable but no other part of your program. This is called internal state.
 They begin with the @@ sign
 
 Example for class and instance variable;
