@@ -6,7 +6,7 @@ permalink:  variables_in_ruby
 ---
 
 
-In ruby, a variable is the name that can be assigned to an object we could refer to them as memory locations for data that can be used in a program. For exampe:
+In ruby, a variable is the name that can be assigned to an object we could refer to them as memory locations for data that can be used in a program. For example:
 
 worlds_best_team  = "Liverpool FC".
 
