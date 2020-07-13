@@ -23,14 +23,14 @@ $worlds_best_team = "Liverpool FC"
 
 class Team
    def best_team
-      puts "The best team in the world is  #$worlds_best_team
+      puts "The best team in the world is  #$worlds_best_team."
    end
 end
 
 team_object = Team.new
 team_object.best team
 
-The best team in the world is Liverpool FC
+The best team in the world is Liverpool FC.
 
 Ruby still knows the best team in the world is  Liverpool FC even though it is written outside the scope of the class.
 
