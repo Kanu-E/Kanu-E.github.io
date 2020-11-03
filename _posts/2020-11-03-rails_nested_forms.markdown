@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Rails Nested Forms"
-date:       2020-11-03 14:47:20 +0000
+date:       2020-11-03 09:47:21 -0500
 permalink:  rails_nested_forms
 ---
 
 
-Some might say it is such a cliche to say that rails is magic but when you actually begin to scratch the surface of what the web application framework is capable of, it is not difficult to see why people tend to refer to it as magic.
+Some might say it is a cliche to say that rails is magic but when you actually begin to scratch the surface of what the web application framework is capable of, it is not difficult to see why people tend to refer to it as magic.
 
 Some of the outstanding things about rails are its abilities with form. Here will be taking a look at what rails nested forms are and how they are Implemented.
 
