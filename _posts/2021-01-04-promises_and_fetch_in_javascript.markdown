@@ -1,11 +1,11 @@
 ---
 layout: post
 title:      "PROMISES AND FETCH IN JAVASCRIPT"
-date:       2021-01-04 17:37:33 +0000
+date:       2021-01-04 12:37:35 -0500
 permalink:  promises_and_fetch_in_javascript
 ---
 
-When a user tries to access a webpage she will do so by sending a HTTP request, the browser tends to wait till all the data has to be accessed has fully loaded  in the meantime the users browser will display a blank page . When there is large data to be processed, this may take a while and result in an unsatisfactorily user experience.
+When a user tries to access a webpage she will do so by sending a HTTP request, the browser tends to wait till all the data has to be accessed has fully loaded in the meantime the users browser will display a blank page. When there is large data to be processed, this may take a while and result in an unsatisfactorily user experience.
 
 The fetch function is a function that allows us to send network requests with the value as some kind of data and said data can be loaded when needed without the need to reload a page.
 
@@ -62,6 +62,6 @@ Let's take a look at a possible example. We are going to fetch an image of Rick 
 </html>
 
 ```
-And there you have we used the fetch method and passed ('https://rickandmortyapi.com/api/character/1') as an argument  to get a stream of data,  we *then* handled it by transforming it into a [json](https://www.w3schools.com/js/js_json_intro.asp) and then displayed the image in the DOM.
+And there you have we used the fetch method and passed ('https://rickandmortyapi.com/api/character/1') as an argument to get a stream of data,  we *then* handled it by transforming it into a [json](https://www.w3schools.com/js/js_json_intro.asp) and then displayed the image in the DOM.
 
 
