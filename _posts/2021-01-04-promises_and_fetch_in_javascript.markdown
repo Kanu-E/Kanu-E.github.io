@@ -50,14 +50,14 @@ Let's take a look at a possible example. We are going to fetch an image of Rick 
   </head>
 
   <body>
-    <img src"" id ="rick">
+  <img src"" id ="rick">
    
-    <script>
+ <script>
  fetch('https://rickandmortyapi.com/api/character/1')
  .then(resp => resp.json())
  .then(json => (document.getElementById("rick").src = json.image));
 		
-		</script>
+	</script>
 
 </html>
 
