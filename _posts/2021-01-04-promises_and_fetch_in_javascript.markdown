@@ -62,6 +62,9 @@ Let's take a look at a possible example. We are going to fetch an image of Rick 
 </html>
 
 ```
+
+![](https://rickandmortyapi.com/api/character/avatar/1.jpeg)
+
 And there you have we used the fetch method and passed ('https://rickandmortyapi.com/api/character/1') as an argument to get a stream of data,  we *then* handled it by transforming it into a [json](https://www.w3schools.com/js/js_json_intro.asp) and then displayed the image in the DOM.
 
 
