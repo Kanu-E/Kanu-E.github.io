@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Navigating URLS in React"
-date:       2021-04-12 18:32:37 +0000
+date:       2021-04-12 14:32:38 -0400
 permalink:  navigating_urls_in_react
 ---
 
@@ -135,6 +135,7 @@ const App = () => {
 export default App;
  
 ---
+```
 
 With the exact attribute passed, we are explicitly stating that we only want to see the specific component rendered when we go to the route that matches said component.
-```
+
