@@ -112,7 +112,7 @@ const Contacts = () => {
 
 If you open up the browser, the above code will display the Home component when the URL is /and will display the About and Contacts component for /about and /contacts respectively. It will however display the contents of the Home components when you navigate to other URLs as shown below:
 
-![](https://ibb.co/vZRd4J6)
+![](https://i.ibb.co/YpwdBtF/Screen-Shot-2021-04-02-at-10-43-02-AM.png)
 
 Having this might be useful in situations were we have a heading that will will like to show on every page or where you want details of another component to show while rendering another's URL but it might not be suitable in some. In those instances, we can fix it so that the contents of the Home aren't displayed when we navigate to a URL nested in the home URL we can change our Route component for Home to exact path instead of just path
 
